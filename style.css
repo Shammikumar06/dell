@@ -238,11 +238,70 @@ h4{
     border-radius: 10px;
     width: 230px;
 }
-
-
-
-
-
+.container2{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 20px;
+}
+.container2__para{
+    margin-top: 10px;
+}
+.container2-i{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+}
+.container2-i__image img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+.container2-i__image p{
+    text-align: center;
+    width: 350px;
+    font-weight: bold;
+}
+.container-3{
+    margin-top: 90px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.container3__para{
+    margin-top: 15px;
+}
+.container3{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.container3-image img{
+    margin-top: 30px;
+    width: 250px;
+    border-radius: 10px;
+}
+ .container3-image__but{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    border: solid black 2px;
+    background-color: white;
+}
+.container3-image__desc{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+}
 
 
 
@@ -284,4 +343,48 @@ h4{
         transform: scale(1);
     }
     
+}
+
+/* Media Queries */
+
+
+@media screen and (max-width:800px) {
+    .navbar__2{
+        display: none;
+    }
+    .heading{
+        display: none;
+    }
+    #power{
+        position: absolute;
+        top: 20px;
+        left: 60px;
+    }
+    #head4{
+        top: 10%;
+        left: 34%;
+    }
+    .iage img{
+        width: 450px;
+    }
+    .iage__beta{
+        top: 26%;
+        font-size: 25px;
+        left: 12%;
+    }
+    #iage__del{
+        top:57%;
+        left:12%;
+        font-size: 15px;
+    }
+    #iage__but{
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 10px;
+        top: 80%;
+        left: 12%;
+
+    }
 }
