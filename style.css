@@ -39,6 +39,13 @@
 .navbar__3 p{
     padding: 20px;
 }
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
 .navbar__3 button{
     padding-left: 10px;
     padding-right: 10px;
@@ -187,7 +194,7 @@ h4{
 }
 #iage__del{
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 19%;
     font-size: 25px;
     color: white;
@@ -226,7 +233,7 @@ h4{
     width: 250px;
     border-radius: 10px;
 }
-.container-ims__txt{
+.container-ims__txt1,.container-ims__txt2,.container-ims__txt3,.container-ims__txt4{
     flex-wrap: wrap;
     position: absolute;
     padding: 10px;
@@ -234,7 +241,7 @@ h4{
     font-size: 25px;
     font-weight: bold;
     background-color:rgba(91,91,90,0.5);
-    bottom: 2px;
+    bottom: 5px;
     border-radius: 10px;
     width: 230px;
 }
@@ -279,11 +286,44 @@ h4{
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
+    position: relative;
 }
 .container3-image img{
     margin-top: 30px;
     width: 250px;
     border-radius: 10px;
+}
+#heart1{
+    position: absolute;
+    top: 30px;
+    padding: 10px;
+    left: 345px;
+    background-color: white;
+    border-radius: 30px;
+}
+#heart2{
+    position: absolute;
+    top: 30px;
+    padding: 10px;
+    left: 620px;
+    background-color: white;
+    border-radius: 30px;
+}
+#heart3{
+    position: absolute;
+    top: 30px;
+    padding: 10px;
+    left: 895px;
+    background-color: white;
+    border-radius: 30px;
+}
+#heart4{
+    position: absolute;
+    top: 30px;
+    padding: 10px;
+    left: 87%;
+    background-color: white;
+    border-radius: 30px;
 }
  .container3-image__but{
     padding-left: 10px;
@@ -302,10 +342,105 @@ h4{
     font-weight: bold;
     width: 250px;
 }
+.container3-image__hed{
+    font-size: 15px;
+}
+.container3-image p{
+    margin-top: 10px;
+}
+.voltos{
+    margin-top:30px ;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    background-color: whitesmoke;
+}
+ h1{
+    padding-top: 30px;
+}
+.sector{
+    margin-top: 40px;
+}
+.bdy-image{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.sector img{
+    width: 340px;
+    border-radius: 10px;
+}
+.sector-header{
+    width: 340px;
+    padding: 5px;
+}
+.dream{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.dream p{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.deam{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.dm-picture img{
+    width: 250px;
+    border-radius: 10px;
 
+}
+.dm-picture{
+    position: relative;
+}
+.dm-picture p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.dm{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 30px;
+}
+.dm-head p{
+    margin-top: 20px;
+}
+.dm-pic{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.dm-pic__sr{
+    margin-top: 20px;
+    position: relative;
 
-
-
+}
+.dm-pic__sr img{
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+}
+.dm-pic__sr p{
+    position: absolute;
+    bottom: 5px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}    
+    /* color: white; 
+    font-size: 20px;
+} */
 
 
 
@@ -346,9 +481,7 @@ h4{
 }
 
 /* Media Queries */
-
-
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     .navbar__2{
         display: none;
     }
@@ -363,6 +496,93 @@ h4{
     #head4{
         top: 10%;
         left: 34%;
+    }
+    .menu{
+        margin-top: 40px;
+        display: block;
+    }    
+    .navbar__3 button{
+        display: none;
+
+    }
+    #globe{
+        display: none;
+    }  
+    #power{
+        position: absolute;
+        top: 35px;
+        left: 20%;
+    }
+    #head4{
+        top: 10%;
+        left: 34%;
+    }
+    .iage__beta{
+        top: 27%;
+        font-size: 35px;
+        left: 15%;
+    }
+    #iage__del{
+        top:57%;
+        left:12%;
+        font-size: 15px;
+    }
+    #iage__but{
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        border-radius: 10px;
+        top: 80%;
+        left: 12%;  
+    
+}
+#iage__del{
+    top:59%;
+    left:15%;
+    font-size: 20px;
+}
+#iage__but{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    top: 80%;
+    left: 15%;
+}
+#heart1{
+    left: 290px;
+}
+#heart2{
+    left: 560px;
+}
+
+
+
+
+}
+
+
+@media screen and (max-width:620px) {
+    .navbar__2{
+        display: none;
+    }
+    .heading{
+        display: none;
+    }
+    #power{
+        position: absolute;
+        top: 20px;
+        left: 60px;
+    }
+    #head4{
+        top: 10%;
+        left: 34%;
+    }
+    .menu{
+        margin-top: 40px;
+        display: block;
     }
     .iage img{
         width: 450px;
@@ -386,5 +606,27 @@ h4{
         top: 80%;
         left: 12%;
 
+    }
+    #heart1{
+        left: 250px;
+    }
+    .navbar__3 button{
+        display: none;
+
+    }
+    #globe{
+        display: none;
+    }
+    .container-ims__txt1{
+        top: 200px;
+        height: fit-content;
+    }
+    .container-ims__txt2{
+        top: 480px;
+        height: fit-content;
+    }
+    .container-ims__txt3{
+        top: 760px;
+        height: fit-content;
     }
 }
