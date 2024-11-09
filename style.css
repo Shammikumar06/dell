@@ -67,6 +67,9 @@
     background-color: whitesmoke;
     border-radius: 30px;
 }
+#band p:hover{             
+    border-bottom: solid black 2px;
+}
 .navbar__3 p:hover{
     transition: 1s;
     border-radius: 30px;
@@ -438,14 +441,146 @@ h4{
     font-weight: bold;
     font-size: 20px;
 }    
-    /* color: white; 
+.main{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    background-color: whitesmoke;
+}
+.set__itect{
+    padding: 3%;    
+}
+.set__itect img{
+    width:450px;
+    height:450px;
+}
+.sec img{
+    width: 30px;
+}
+.sec{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.set{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.set{
+    position: relative;
+}
+.info{
+    position: absolute;
+    right: 10%;
+    top: 0;
+}
+.list{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 10%;
+    background-color: #FFF7E1;
+    display: flex;
+    justify-content: space-between;
+}
+.curve img{
+    width: 800px;
+
+}
+.logo img{
+    position: relative;
+    top: 280px;
+    left:5px;
+}
+.logo h1{
+    position: relative;
+    top: 250px;
+    left:5px;
+}
+.logo p{
+    position: relative;
+    top: 255px;
+    left: 5px;
+    font-weight: bold;
     font-size: 20px;
-} */
+}
+.logo button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    position: relative;
+    border-radius: 10px;
+    top: 260px;
+    left: 5px;
+}
+.footer{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    gap: 20px;
+    margin-top: 50px;
+    background-color: #F2F2F2;
+}
+.content,.exp,.busi,.nut{
+    margin-top: 20px;
+}
+.busi h3{
+    margin-top: 20px;
+}
+.ion img{
+    margin-top: 50px;
+    width: 40px;
+    height: 40px;
+}
+.lot{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+    font-size: 12px;
 
-
-
-
-
+    background-color: #F2F2F2;
+}
+.tems{
+    background-color: #F2F2F2;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.cos{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 45px;
+    bottom: 30px;
+}
+.cos p{
+    flex-grow:0;
+    flex-basis:25%;
+}
+.selt{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 70px;
+    right: -10%;
+}
+.set__ind select,.set__bub select{
+    padding:5px;
+    border-radius: 10px;
+}
+.set__ind select:hover{
+    background-color: transparent;
+}
 
 /* Animation */
 @keyframes scaling {
@@ -504,6 +639,20 @@ h4{
     .navbar__3 button{
         display: none;
 
+    }
+    .content,.exp,.busi,.nut{
+        display: none;
+    }
+    .lot{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tems{
+        display: none;
+    }
+    .selt{
+        display: none;
     }
     #globe{
         display: none;
