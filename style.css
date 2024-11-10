@@ -168,11 +168,51 @@
     display: flex;
     flex-wrap: wrap;
 }
-.iage img{
+.iag h1{
+    position: absolute;
+    color: white;
+    top: 20%;
+    left: 15%;
+}
+.iag img{
     
     width: 100%;
 }
-#power{
+.iag p{
+    position: absolute;
+    top: 20%;
+    left:15%;
+    color: white;
+}
+.iag h4{
+    position: absolute;
+    top: 18%;
+    border-radius: 5px;
+    padding: 10px;
+    left: 23%;
+    background-color: white;
+}
+.iag h3{
+    position: absolute;
+    top: 42%;
+    border-radius: 5px;
+    padding: 10px;
+    left: 14%;
+    color: white;
+}
+.iage button{
+    position: absolute;
+    top: 55%;
+    border-radius: 5px;
+    padding-left:  10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 15%;
+    border: none;
+    background-color: plum;
+}
+/* #power{
     position: absolute;
     z-index: 1;
     color: white; 
@@ -214,39 +254,47 @@ h4{
     top:75%;
     left:20%;
     font-size: 16px;
-}
+} */
 .container1{
     padding-left:10%;
     padding-right: 10%;
     margin-top: 20px;
 }
+/* .container1__head{
+    padding-left: 10%;
+    padding-right: 10%;
+
+} */
 .container1__para{
+    /* padding-left: 10%;
+    padding-right: 10%; */
     margin-top: 10px;
 }
-.container-ims{
+.container-i{
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
+}
+.container-im{
     position: relative;
+}
+.container-im p{
+    position: absolute;
+    padding: 10px;
+    background-color:rgba(91, 90, 91,0.3);
+    font-size: 20px;
+    width: 230px;
+    color: white;
+    font-weight: bold;
+    bottom: 5px;
+    border-radius:5px;
 }
 .container-ims__images img{
     width: 250px;
     border-radius: 10px;
-}
-.container-ims__txt1,.container-ims__txt2,.container-ims__txt3,.container-ims__txt4{
-    flex-wrap: wrap;
-    position: absolute;
-    padding: 10px;
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    background-color:rgba(91,91,90,0.5);
-    bottom: 5px;
-    border-radius: 10px;
-    width: 230px;
 }
 .container2{
     padding-left: 10%;
@@ -289,14 +337,13 @@ h4{
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
-    position: relative;
 }
 .container3-image img{
     margin-top: 30px;
     width: 250px;
     border-radius: 10px;
 }
-#heart1{
+/* #heart1{
     position: absolute;
     top: 30px;
     padding: 10px;
@@ -327,7 +374,18 @@ h4{
     left: 87%;
     background-color: white;
     border-radius: 30px;
-}
+} */
+ .container-33{
+    position: relative;
+ }
+ .container-33 i{
+    position: absolute;
+    padding: 10px;
+    right: 10px;
+    background-color: white;
+    border-radius: 20px;
+    top: 40px;
+ }
  .container3-image__but{
     padding-left: 10px;
     padding-right: 10px;
@@ -581,6 +639,24 @@ h4{
 .set__ind select:hover{
     background-color: transparent;
 }
+.last{
+    background-color: #F2F2F2;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+
+}
+.ancor{
+    display: flex;
+    gap: 20px;
+}
+.ancor a{
+    font-size: 20px;
+    
+
+}
 
 /* Animation */
 @keyframes scaling {
@@ -616,105 +692,11 @@ h4{
 }
 
 /* Media Queries */
-@media screen and (max-width:900px) {
-    .navbar__2{
-        display: none;
-    }
-    .heading{
-        display: none;
-    }
-    #power{
-        position: absolute;
-        top: 20px;
-        left: 60px;
-    }
-    #head4{
-        top: 10%;
-        left: 34%;
-    }
-    .menu{
-        margin-top: 40px;
-        display: block;
-    }    
-    .navbar__3 button{
-        display: none;
-
-    }
-    .content,.exp,.busi,.nut{
-        display: none;
-    }
-    .lot{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .tems{
-        display: none;
-    }
-    .selt{
-        display: none;
-    }
-    #globe{
-        display: none;
-    }  
-    #power{
-        position: absolute;
-        top: 35px;
-        left: 20%;
-    }
-    #head4{
-        top: 10%;
-        left: 34%;
-    }
-    .iage__beta{
-        top: 27%;
-        font-size: 35px;
-        left: 15%;
-    }
-    #iage__del{
-        top:57%;
-        left:12%;
-        font-size: 15px;
-    }
-    #iage__but{
-        padding-left: 7px;
-        padding-right: 7px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-        border-radius: 10px;
-        top: 80%;
-        left: 12%;  
-    
-}
-#iage__del{
-    top:59%;
-    left:15%;
-    font-size: 20px;
-}
-#iage__but{
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    border-radius: 10px;
-    top: 80%;
-    left: 15%;
-}
-#heart1{
-    left: 290px;
-}
-#heart2{
-    left: 560px;
-}
-
-
-
-
-}
-
-
 @media screen and (max-width:620px) {
     .navbar__2{
+        display: none;
+    }
+    .main{
         display: none;
     }
     .heading{
